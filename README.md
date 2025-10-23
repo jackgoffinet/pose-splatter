@@ -1,4 +1,4 @@
-## pose-splatter
+# Pose Splatter: A 3D Gaussian Splatting Model for Quantifying Animal Pose and Appearance [NeurIPS2025]
 
 <div align="center">
 
