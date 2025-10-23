@@ -9,7 +9,7 @@
 </div>
 
 
-Code for "Pose Splatter: A 3D Gaussian Splatting Model for Quantifying Animal Pose and Appearance" (Goffinet, Min, Tomasi, & Carlson 2025). [arXiv](https://arxiv.org/abs/2505.18342)
+Code for "Pose Splatter: A 3D Gaussian Splatting Model for Quantifying Animal Pose and Appearance."
 
 
 ### Usage Steps
