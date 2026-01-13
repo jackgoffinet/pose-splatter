@@ -11,8 +11,17 @@
 
 Code for "Pose Splatter: A 3D Gaussian Splatting Model for Quantifying Animal Pose and Appearance."
 
+## Dataset
 
-### Usage Steps
+The datasets used in this work are publicly available via the Duke Research Data Repository:
+
+**Pose Splatter Dataset**  
+https://doi.org/10.7924/r4z323k2c
+
+The dataset contains synchronized multi-view video recordings of freely moving animals (mouse and zebra finch), along with camera calibration parameters, and is released to support reproducibility and further research. The total size is 5.6 GB.
+
+
+## Usage
 
 1. **Collect up direction:**
     ```bash
@@ -64,8 +73,30 @@ Code for "Pose Splatter: A 3D Gaussian Splatting Model for Quantifying Animal Po
     python calculate_visual_embedding.py config.json
     ```
 
-### Project Checklist
+## Project Checklist
 - [x] Code on GitHub
 - [ ] Camera-ready on arXiv
-- [ ] Add links to data
+- [x] Add links to data
 - [ ] Add more detailed usage
+
+## Paper BibTex
+```bibtex
+@inproceedings{Goffinet2025PoseSplatter,
+  author       = {Goffinet, Jack and Min, Youngjo and Tomasi, Carlo and Carlson, David E.},
+  title        = {Pose Splatter: A 3D Gaussian Splatting Model for Quantifying Animal Pose and Appearance},
+  booktitle    = {Advances in Neural Information Processing Systems},
+  year         = {2025}
+}
+```
+
+## Dataset BibTex
+```bibtex
+@dataset{Goffinet2026PoseSplatterData,
+  author       = {Goffinet, Jack and Kaplan, Kate and Soliman, Hannah A. and Walder-Christensen, Kathryn K. and Min, Youngjo and Mooney, Richard and Dzirasa, Kafui and Carlson, David E.},
+  title        = {Data from: Pose Splatter: A 3D Gaussian Splatting Model for Quantifying Animal Pose and Appearance},
+  year         = {2026},
+  publisher    = {Duke Research Data Repository},
+  doi          = {10.7924/r4z323k2c},
+  url          = {https://doi.org/10.7924/r4z323k2c}
+}
+```
