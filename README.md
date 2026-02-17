@@ -75,7 +75,7 @@ The dataset contains synchronized multi-view video recordings of freely moving a
 
 ## Project Checklist
 - [x] Code on GitHub
-- [ ] Camera-ready on arXiv
+- [x] Camera-ready on arXiv
 - [x] Add links to data
 - [ ] Add more detailed usage
 
